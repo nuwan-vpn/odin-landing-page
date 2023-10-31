@@ -11,27 +11,28 @@ body{
 
 .first-container{
     background-color: #1F2937;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbarlogo{
     font-size: 24px;
     color: #f9faf8;
+    padding: 10px;
 }
 
 .headerlinks {
    font-size: 18px;
    color: #e5e6eb;
    margin: 18px;
+   padding: 10px;
 }
 
 ul{
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
 }
 
-.navbarlogo , .navbarlinks{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-}
+
+
