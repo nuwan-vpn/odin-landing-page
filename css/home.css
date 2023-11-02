@@ -10,29 +10,35 @@ body{
 }
 
 .first-container{
-    background-color: #1F2937;   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+    background-color: #1F2937;      
 }
 
-.navbarlogo{
+#navbarlogo{
     font-size: 24px;
-    font-weight: bold;
     color: #f9faf8;
-    margin-left: 170px;
 }
 
 .headerlinks {
    font-size: 18px;
-   color: #e5e6eb;
+   color: #e5e7eb;
    margin: 18px;
 }
 
-ul{
-    list-style-type: none;
+.navbar{
     display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right, .navbar-left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 
