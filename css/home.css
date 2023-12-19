@@ -48,6 +48,14 @@ h1{
 
 }
 
-
-
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.content-right,  .content-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
