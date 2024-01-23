@@ -51,11 +51,47 @@ h1{
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
-.content-right,  .content-left{
+
+.content-left{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+    width:60% ;
+    margin-left: 200px;
 }
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+    width:50% ;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img{
+    margin: 50px;
+}
+
+.p-first {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+    
+}
+
+.sign-up-first-session{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border:1px  #3882F6;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
 
