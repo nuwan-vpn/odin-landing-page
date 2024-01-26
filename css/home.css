@@ -94,4 +94,41 @@ img{
 
 }
 
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
 
+.blue-box-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.blue-box{
+    border: 3px solid #3882F6;
+    width: 200px;
+    height: 200px; 
+    border-radius: 5px;
+    
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
