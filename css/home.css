@@ -110,6 +110,7 @@ h2{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .blue-box{
@@ -131,4 +132,34 @@ h2{
     text-align: center;
     justify-content: center;
     margin: 5px;
+}
+
+.third-container{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.p-third{
+    font-size: 24px;
+    text-align: end;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#p-third-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 200px;
 }
